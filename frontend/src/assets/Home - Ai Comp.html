@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3001/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <title>Home - Ai Comp</title>
+  <script defer="" src="./Home - Ai Comp_files/bundle.js"></script><style>@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);</style><style>*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */ /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.left-4 {
+  left: 1rem;
+}
+.right-0 {
+  right: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.top-1\/2 {
+  top: 50%;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.h-12 {
+  height: 3rem;
+}
+.h-16 {
+  height: 4rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-64 {
+  height: 16rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-\[calc\(100vh-4rem\)\] {
+  height: calc(100vh - 4rem);
+}
+.h-\[calc\(67vh-4rem\)\] {
+  height: calc(67vh - 4rem);
+}
+.h-full {
+  height: 100%;
+}
+.min-h-0 {
+  min-height: 0px;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-1\/4 {
+  width: 25%;
+}
+.w-2 {
+  width: 0.5rem;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-\[40rem\] {
+  width: 40rem;
+}
+.w-auto {
+  width: auto;
+}
+.w-full {
+  width: 100%;
+}
+.w-8 {
+  width: 2rem;
+}
+.max-w-3xl {
+  max-width: 48rem;
+}
+.flex-1 {
+  flex: 1 1;
+}
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.resize-none {
+  resize: none;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
+}
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+.border-t-orange-500 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.bg-amber-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 235 / var(--tw-bg-opacity, 1));
+}
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.from-orange-400 {
+  --tw-gradient-from: #fb923c var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(251 146 60 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-pink-500 {
+  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.font-raleway {
+  font-family: Raleway, sans-serif;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.leading-\[3rem\] {
+  line-height: 3rem;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.placeholder-gray-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+/* styles/global.css */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Raleway',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:opacity-90:hover {
+  opacity: 0.9;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 640px) {
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBQSx3QkFBYztFQUFkLHdCQUFjO0VBQWQsbUJBQWM7RUFBZCxtQkFBYztFQUFkLGNBQWM7RUFBZCxjQUFjO0VBQWQsY0FBYztFQUFkLGVBQWM7RUFBZCxlQUFjO0VBQWQsYUFBYztFQUFkLGFBQWM7RUFBZCxrQkFBYztFQUFkLHNDQUFjO0VBQWQsOEJBQWM7RUFBZCw2QkFBYztFQUFkLDRCQUFjO0VBQWQsZUFBYztFQUFkLG9CQUFjO0VBQWQsc0JBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQsa0JBQWM7RUFBZCwyQkFBYztFQUFkLDRCQUFjO0VBQWQsc0NBQWM7RUFBZCxrQ0FBYztFQUFkLDJCQUFjO0VBQWQsc0JBQWM7RUFBZCw4QkFBYztFQUFkLFlBQWM7RUFBZCxrQkFBYztFQUFkLGdCQUFjO0VBQWQsaUJBQWM7RUFBZCxrQkFBYztFQUFkLGNBQWM7RUFBZCxnQkFBYztFQUFkLGFBQWM7RUFBZCxtQkFBYztFQUFkLHFCQUFjO0VBQWQsMkJBQWM7RUFBZCx5QkFBYztFQUFkLDBCQUFjO0VBQWQsMkJBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQseUJBQWM7RUFBZCxzQkFBYztFQUFkLG9CQUFjO0VBQWQsc0JBQWM7RUFBZCxxQkFBYztFQUFkO0FBQWM7O0FBQWQ7RUFBQSx3QkFBYztFQUFkLHdCQUFjO0VBQWQsbUJBQWM7RUFBZCxtQkFBYztFQUFkLGNBQWM7RUFBZCxjQUFjO0VBQWQsY0FBYztFQUFkLGVBQWM7RUFBZCxlQUFjO0VBQWQsYUFBYztFQUFkLGFBQWM7RUFBZCxrQkFBYztFQUFkLHNDQUFjO0VBQWQsOEJBQWM7RUFBZCw2QkFBYztFQUFkLDRCQUFjO0VBQWQsZUFBYztFQUFkLG9CQUFjO0VBQWQsc0JBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQsa0JBQWM7RUFBZCwyQkFBYztFQUFkLDRCQUFjO0VBQWQsc0NBQWM7RUFBZCxrQ0FBYztFQUFkLDJCQUFjO0VBQWQsc0JBQWM7RUFBZCw4QkFBYztFQUFkLFlBQWM7RUFBZCxrQkFBYztFQUFkLGdCQUFjO0VBQWQsaUJBQWM7RUFBZCxrQkFBYztFQUFkLGNBQWM7RUFBZCxnQkFBYztFQUFkLGFBQWM7RUFBZCxtQkFBYztFQUFkLHFCQUFjO0VBQWQsMkJBQWM7RUFBZCx5QkFBYztFQUFkLDBCQUFjO0VBQWQsMkJBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQseUJBQWM7RUFBZCxzQkFBYztFQUFkLG9CQUFjO0VBQWQsc0JBQWM7RUFBZCxxQkFBYztFQUFkO0FBQWMsQ0FBZDs7Q0FBYyxDQUFkOzs7Q0FBYzs7QUFBZDs7O0VBQUEsc0JBQWMsRUFBZCxNQUFjO0VBQWQsZUFBYyxFQUFkLE1BQWM7RUFBZCxtQkFBYyxFQUFkLE1BQWM7RUFBZCxxQkFBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7RUFBQSxnQkFBYztBQUFBOztBQUFkOzs7Ozs7OztDQUFjOztBQUFkOztFQUFBLGdCQUFjLEVBQWQsTUFBYztFQUFkLDhCQUFjLEVBQWQsTUFBYyxFQUFkLE1BQWM7RUFBZCxXQUFjLEVBQWQsTUFBYztFQUFkLCtIQUFjLEVBQWQsTUFBYztFQUFkLDZCQUFjLEVBQWQsTUFBYztFQUFkLCtCQUFjLEVBQWQsTUFBYztFQUFkLHdDQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOzs7Q0FBYzs7QUFBZDtFQUFBLFNBQWMsRUFBZCxNQUFjO0VBQWQsb0JBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7Ozs7Q0FBYzs7QUFBZDtFQUFBLFNBQWMsRUFBZCxNQUFjO0VBQWQsY0FBYyxFQUFkLE1BQWM7RUFBZCxxQkFBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDtFQUFBLHlDQUFjO1VBQWQsaUNBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7Ozs7O0VBQUEsa0JBQWM7RUFBZCxvQkFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsY0FBYztFQUFkLHdCQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsbUJBQWM7QUFBQTs7QUFBZDs7Ozs7Q0FBYzs7QUFBZDs7OztFQUFBLCtHQUFjLEVBQWQsTUFBYztFQUFkLDZCQUFjLEVBQWQsTUFBYztFQUFkLCtCQUFjLEVBQWQsTUFBYztFQUFkLGNBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSxjQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsY0FBYztFQUFkLGNBQWM7RUFBZCxrQkFBYztFQUFkLHdCQUFjO0FBQUE7O0FBQWQ7RUFBQSxlQUFjO0FBQUE7O0FBQWQ7RUFBQSxXQUFjO0FBQUE7O0FBQWQ7Ozs7Q0FBYzs7QUFBZDtFQUFBLGNBQWMsRUFBZCxNQUFjO0VBQWQscUJBQWMsRUFBZCxNQUFjO0VBQWQseUJBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7Ozs7Q0FBYzs7QUFBZDs7Ozs7RUFBQSxvQkFBYyxFQUFkLE1BQWM7RUFBZCw4QkFBYyxFQUFkLE1BQWM7RUFBZCxnQ0FBYyxFQUFkLE1BQWM7RUFBZCxlQUFjLEVBQWQsTUFBYztFQUFkLG9CQUFjLEVBQWQsTUFBYztFQUFkLG9CQUFjLEVBQWQsTUFBYztFQUFkLHVCQUFjLEVBQWQsTUFBYztFQUFkLGNBQWMsRUFBZCxNQUFjO0VBQWQsU0FBYyxFQUFkLE1BQWM7RUFBZCxVQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkOztFQUFBLG9CQUFjO0FBQUE7O0FBQWQ7OztDQUFjOztBQUFkOzs7O0VBQUEsMEJBQWMsRUFBZCxNQUFjO0VBQWQsNkJBQWMsRUFBZCxNQUFjO0VBQWQsc0JBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSxhQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSxnQkFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsd0JBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7RUFBQSxZQUFjO0FBQUE7O0FBQWQ7OztDQUFjOztBQUFkO0VBQUEsNkJBQWMsRUFBZCxNQUFjO0VBQWQsb0JBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSx3QkFBYztBQUFBOztBQUFkOzs7Q0FBYzs7QUFBZDtFQUFBLDBCQUFjLEVBQWQsTUFBYztFQUFkLGFBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSxrQkFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkOzs7Ozs7Ozs7Ozs7O0VBQUEsU0FBYztBQUFBOztBQUFkO0VBQUEsU0FBYztFQUFkLFVBQWM7QUFBQTs7QUFBZDtFQUFBLFVBQWM7QUFBQTs7QUFBZDs7O0VBQUEsZ0JBQWM7RUFBZCxTQUFjO0VBQWQsVUFBYztBQUFBOztBQUFkOztDQUFjO0FBQWQ7RUFBQSxVQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSxnQkFBYztBQUFBOztBQUFkOzs7Q0FBYzs7QUFBZDs7RUFBQSxVQUFjLEVBQWQsTUFBYztFQUFkLGNBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsZUFBYztBQUFBOztBQUFkOztDQUFjO0FBQWQ7RUFBQSxlQUFjO0FBQUE7O0FBQWQ7Ozs7Q0FBYzs7QUFBZDs7Ozs7Ozs7RUFBQSxjQUFjLEVBQWQsTUFBYztFQUFkLHNCQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkOztFQUFBLGVBQWM7RUFBZCxZQUFjO0FBQUE7O0FBQWQsd0VBQWM7QUFBZDtFQUFBLGFBQWM7QUFBQTtBQUVkO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBLGlCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBLHNCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5COztFQUFBO0lBQUE7RUFBbUI7QUFBQTtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsdUJBQW1CO0VBQW5CLHNEQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLHVCQUFtQjtFQUFuQixzREFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSx1QkFBbUI7RUFBbkIsK0RBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsdUJBQW1CO0VBQW5CLDhEQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLHVCQUFtQjtFQUFuQiw0REFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSx1QkFBbUI7RUFBbkIsNERBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSxnQkFBbUI7RUFBbkIsdUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsNERBQW1CO0VBQW5CLG9FQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSxxQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSxpQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLDJCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLCtFQUFtQjtFQUFuQixtR0FBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSw2RUFBbUI7RUFBbkIsaUdBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsMENBQW1CO0VBQW5CLHVEQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1COztBQUVuQixzQkFBc0I7OztBQUl0QjtFQUNFLFNBQVM7RUFDVDs7Y0FFWTtFQUNaLG1DQUFtQztFQUNuQyxrQ0FBa0M7QUFDcEM7O0FBRUE7RUFDRTthQUNXO0FBQ2I7O0FBcEJBO0VBQUEsa0JBcUJBO0VBckJBO0FBcUJBOztBQXJCQTtFQUFBLGtCQXFCQTtFQXJCQTtBQXFCQTs7QUFyQkE7RUFBQTtBQXFCQTs7QUFyQkE7RUFBQTtBQXFCQTs7QUFyQkE7O0VBQUE7SUFBQSxpQkFxQkE7SUFyQkE7RUFxQkE7QUFBQTs7QUFyQkE7O0VBQUE7SUFBQTtFQXFCQTs7RUFyQkE7SUFBQSxtQkFxQkE7SUFyQkE7RUFxQkE7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbIkB0YWlsd2luZCBiYXNlO1xuQHRhaWx3aW5kIGNvbXBvbmVudHM7XG5AdGFpbHdpbmQgdXRpbGl0aWVzO1xuXG4vKiBzdHlsZXMvZ2xvYmFsLmNzcyAqL1xuQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9UmFsZXdheTppdGFsLHdnaHRAMCwxMDAuLjkwMDsxLDEwMC4uOTAwJmRpc3BsYXk9c3dhcCcpO1xuXG5cbmJvZHkge1xuICBtYXJnaW46IDA7XG4gIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsICdSb2JvdG8nLCAnT3h5Z2VuJyxcbiAgICAnVWJ1bnR1JywgJ0NhbnRhcmVsbCcsICdGaXJhIFNhbnMnLCAnRHJvaWQgU2FucycsICdIZWx2ZXRpY2EgTmV1ZScsICdSYWxld2F5JyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="min-h-screen flex flex-col"><header class="bg-white border-b border-gray-200"><div class="relative h-16"><div class="absolute left-4 top-1/2 transform -translate-y-1/2"><img src="./Home - Ai Comp_files/logo.4a0c4276d0c8b575dcd6.png" alt="Logo" class="h-8 md:h-10 w-auto"></div><div class="absolute inset-0 flex items-center justify-center pointer-events-none"><h1 class="text-xl sm:text-2xl md:text-3xl font-raleway font-semibold">Compare LLM's</h1></div></div></header><div class="flex flex-1 overflow-hidden"><aside class="relative flex flex-col bg-white border-r border-gray-300 overflow-y-auto overscroll-contain h-[calc(100vh-4rem)]" style="width: 400px;"><div class="absolute top-0 right-0 h-full w-2 cursor-ew-resize bg-transparent hover:bg-gray-200"></div><div class="flex items-center justify-between px-4 py-2 border-b border-gray-100"><h2 class="text-lg font-semibold">History</h2><button type="button" class="p-1 hover:bg-gray-100 rounded" aria-label="Refresh history"><img src="./Home - Ai Comp_files/refresh.8304a958dcdf2d47801f.png" alt="Refresh" class="h-5 w-5 "></button></div><div class="flex-1 p-4"><ul class="space-y-2"><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is the capital of Switzerland ?</p><p class="text-xs text-gray-500">4/18/2025, 2:57:19 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is mochi in japan ?</p><p class="text-xs text-gray-500">4/18/2025, 2:54:42 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is ramen ?</p><p class="text-xs text-gray-500">4/18/2025, 1:50:06 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What does Anthropocene means ?</p><p class="text-xs text-gray-500">4/18/2025, 1:44:42 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">How do bird fly ?</p><p class="text-xs text-gray-500">4/18/2025, 1:36:54 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">Tell me in details about big bang theory</p><p class="text-xs text-gray-500">4/18/2025, 1:27:45 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is grok ?</p><p class="text-xs text-gray-500">4/18/2025, 1:12:26 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is hunger games ?</p><p class="text-xs text-gray-500">4/18/2025, 1:10:10 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">what is star trek ?</p><p class="text-xs text-gray-500">4/18/2025, 1:06:16 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">What is the force is star wars ?</p><p class="text-xs text-gray-500">4/18/2025, 1:05:34 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">Whats is facebook</p><p class="text-xs text-gray-500">4/18/2025, 12:19:28 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">what is open ai</p><p class="text-xs text-gray-500">4/18/2025, 12:02:03 PM</p></li><li class="cursor-pointer p-2 bg-gray-50 rounded hover:bg-gray-100"><p class="text-sm font-medium truncate">what is anthropic</p><p class="text-xs text-gray-500">4/18/2025, 11:26:46 AM</p></li></ul></div><div class="flex items-center justify-between px-4 py-2 border-t border-gray-100 bg-white"><button class="px-3 py-1 rounded disabled:opacity-50 hover:bg-gray-100" disabled="">Previous</button><span class="text-sm text-gray-700">Page 1 of 3</span><button class="px-3 py-1 rounded disabled:opacity-50 hover:bg-gray-100">Next</button></div></aside><main class="flex flex-col flex-1 min-h-0 overflow-hidden p-6 space-y-8"><div class="bg-white py-2 px-4 border-b border-gray-200 flex space-x-6 w-full"><div class="flex-1"><h3 class="font-semibold mb-2">Models</h3><div class="flex space-x-6"><label class="inline-flex items-center space-x-2"><input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" value="open_ai" checked=""><span>OpenAI</span></label><label class="inline-flex items-center space-x-2"><input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" value="anthropic" checked=""><span>Anthropic</span></label><label class="inline-flex items-center space-x-2"><input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" value="x_ai" checked=""><span>xAI</span></label></div></div><div class="w-1/4"><h3 class="font-semibold mb-5">Temperature: 0.7</h3><input type="range" min="0" max="1" step="0.01" class="w-full" value="0.7"></div><div class="w-1/4"><h3 class="font-semibold mb-2">Max Tokens</h3><input type="number" min="1" class="w-full border border-gray-300 rounded px-3 py-2" value="150"></div></div><div class="flex flex-col w-full space-y-4 mt-6"><textarea placeholder="Write your prompt here" class="max-w-3xl w-full h-12 px-4 text-lg shadow-lg rounded-full resize-none placeholder-gray-500 text-center leading-[3rem] border border-gray-200 mx-auto">Tell me in details about big bang theory</textarea><button class="mx-auto text-white px-8 py-2 rounded-full bg-gradient-to-r from-orange-400 to-pink-500 hover:opacity-90">Generate</button></div><div class="flex-1 min-h-0 overflow-hidden"><div class="flex gap-4 mt-6 h-[calc(67vh-4rem)]"><div class="flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-md h-full flex flex-col"><h3 class="font-bold text-2xl mb-4 text-center">open_ai</h3><div class="flex-1 overflow-auto whitespace-pre-wrap text-sm text-gray-800"><p>The Big Bang Theory is the prevailing cosmological model for the origin and evolution of the universe. It describes how the universe expanded from an extremely hot and dense initial state approximately 13.8 billion years ago. Here’s a detailed breakdown of the key concepts, evidence, and implications of the theory:</p>
+<h3>Key Concepts</h3>
+<ol>
+<li>
+<p><strong>Initial Singularity</strong>: The theory posits that the universe began from a singularity, a point of infinite density and temperature. This state is not well understood, as the laws of physics as we know them break down under these conditions.</p>
+</li>
+<li>
+<p><strong>Expansion</strong>: Approximately 13.8 billion years ago, this singularity began to expand rapidly in an event known as the Big Bang. This was not an explosion in space but rather an expansion of space itself.</p>
+</li>
+<li>
+<p><strong>Cosmic Inflation</strong>: A fraction of a second after the Big Bang, the universe underwent a rapid expansion known as cosmic inflation, where it expanded exponentially. This theory helps explain the uniformity of the universe and the distribution of galaxies.</p>
+</li>
+<li>
+<p><strong>Formation of Fundamental Particles</strong>: As the universe expanded and cooled, fundamental particles like quarks and electrons formed. Quarks combined to form protons and neutrons.</p>
+</li>
+<li>
+<p><strong>Nucleosynthesis</strong>: Within the first few minutes, the universe cooled enough for nuclear fusion to occur, leading to the formation of light elements: hydrogen, helium, and trace amounts of lithium and beryllium. This process is known as Big Bang nucleosynthesis.</p>
+</li>
+<li>
+<p><strong>Decoupling and Cosmic Microwave Background (CMB)</strong>: About 380,000 years after the Big Bang, the universe cooled sufficiently for electrons and protons to combine into neutral hydrogen atoms. This event, known as recombination, allowed photons (light) to travel freely through space. The remnant radiation from this era is what we detect today as the Cosmic Microwave Background Radiation (CMB), a crucial piece of evidence supporting the Big Bang Theory.</p>
+</li>
+<li>
+<p><strong>Structure Formation</strong>: Over billions of years, gravitational forces led to the clumping of matter, forming stars, galaxies, and larger cosmic structures.</p>
+</li>
+<li>
+<p><strong>Continued Expansion</strong>: The universe continues to expand today, as evidenced by the redshift of distant galaxies. This expansion is currently understood to be accelerating, which is attributed to dark energy.</p>
+</li>
+</ol>
+<h3>Evidence Supporting the Big Bang Theory</h3>
+<ol>
+<li>
+<p><strong>Cosmic Microwave Background Radiation</strong>: The CMB is a nearly uniform background radiation that fills the universe, predicted by the Big Bang Theory and discovered in 1965 by Arno Penzias and Robert Wilson.</p>
+</li>
+<li>
+<p><strong>Redshift of Galaxies</strong>: Edwin Hubble's observations in the 1920s revealed that distant galaxies are moving away from us, and their light is redshifted, indicating that the universe is expanding.</p>
+</li>
+<li>
+<p><strong>Abundance of Light Elements</strong>: The observed proportions of hydrogen, helium, and other light elements in the universe match predictions made by Big Bang nucleosynthesis.</p>
+</li>
+<li>
+<p><strong>Large Scale Structure</strong>: The distribution of galaxies and galaxy clusters in the universe is consistent with the predictions made by simulations based on the Big Bang model.</p>
+</li>
+</ol>
+<h3>Implications of the Big Bang Theory</h3>
+<ol>
+<li>
+<p><strong>Age of the Universe</strong>: The Big Bang Theory provides a framework for estimating the age of the universe, which is currently estimated to be about 13.8 billion years.</p>
+</li>
+<li>
+<p><strong>Understanding of Cosmic Evolution</strong>: The theory helps explain the evolution of the universe from a hot, dense state to the vast, complex structure we observe today.</p>
+</li>
+<li>
+<p><strong>Future of the Universe</strong>: The ongoing expansion of the universe raises questions about its ultimate fate, leading to hypotheses such as the Big Freeze, Big Crunch, or Big Rip.</p>
+</li>
+</ol>
+<h3>Conclusion</h3>
+<p>The Big Bang Theory is a cornerstone of modern cosmology, providing a comprehensive framework for understanding the origins and evolution of the universe. While the theory has been robustly supported by a wide range of observational evidence, researchers continue to explore its implications and refine our understanding of the universe's earliest moments, its evolution, and its ultimate fate.</p></div></div><div class="flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-md h-full flex flex-col"><h3 class="font-bold text-2xl mb-4 text-center">anthropic</h3><div class="flex-1 overflow-auto whitespace-pre-wrap text-sm text-gray-800"><h1>The Big Bang Theory: A Comprehensive Overview</h1>
+<p>The Big Bang Theory is our current best understanding of how the universe began and evolved. Here's a detailed explanation:</p>
+<h2>The Beginning</h2>
+<p>About 13.8 billion years ago, all matter, energy, space, and time were compressed into an incredibly hot, dense point (often called a "singularity"). The Big Bang wasn't an explosion in space, but rather an expansion of space itself.</p>
+<h2>Key Timeline Events</h2>
+<ol>
+<li>
+<p><strong>The Planck Era</strong> (10^-43 seconds): The earliest period we can theoretically describe, where quantum gravity effects dominated.</p>
+</li>
+<li>
+<p><strong>Grand Unification Era</strong> (10^-43 to 10^-36 seconds): The strong nuclear force separated from the electroweak force.</p>
+</li>
+<li>
+<p><strong>Inflationary Period</strong> (10^-36 to 10^-32 seconds): The universe expanded exponentially, growing by a factor of at least 10^26.</p>
+</li>
+<li>
+<p><strong>Electroweak Era</strong> (10^-32 to 10^-12 seconds): The electromagnetic and weak nuclear forces separated.</p>
+</li>
+<li>
+<p><strong>Quark Era</strong> (10^-12 to 10^-6 seconds): Quarks formed and combined into hadrons (like protons and neutrons).</p>
+</li>
+<li>
+<p><strong>Nucleosynthesis</strong> (First 3 minutes): Protons and neutrons formed the nuclei of light elements (hydrogen, helium, and trace amounts of lithium).</p>
+</li>
+<li>
+<p><strong>Recombination</strong> (380,000 years): The universe cooled enough for electrons to combine with nuclei, forming neutral atoms. This released the cosmic microwave background radiation.</p>
+</li>
+<li>
+<p><strong>Dark Ages</strong> (380,000 to 150 million years): Before stars formed, the universe was filled with neutral hydrogen.</p>
+</li>
+<li>
+<p><strong>First Stars and Galaxies</strong> (150-800 million years): Gravity pulled matter together to form the first stars and galaxies.</p>
+</li>
+</ol>
+<h2>Evidence Supporting the Theory</h2>
+<ol>
+<li>
+<p><strong>Cosmic Microwave Background Radiation</strong>: The afterglow of the Big Bang, discovered in 1965 by Penzias and Wilson.</p>
+</li>
+<li>
+<p><strong>Universe Expansion</strong>: Edwin Hubble discovered that galaxies are moving away from each other, indicating an expanding universe.</p>
+</li>
+<li>
+<p><strong>Light Element Abundance</strong>: The observed proportions of hydrogen, helium, and lithium match Big Bang nucleosynthesis predictions.</p>
+</li>
+<li>
+<p><strong>Large-Scale Structure</strong>: The distribution of galaxies and galaxy clusters aligns with Big Bang model predictions.</p>
+</li>
+</ol>
+<h2>Ongoing Questions</h2>
+<p>Scientists continue to investigate:</p>
+<ul>
+<li>The nature of dark matter and dark energy</li>
+<li>What caused inflation</li>
+<li>What, if anything, existed before the Big Bang</li>
+<li>Whether our universe is part of a multiverse</li>
+</ul>
+<p>The Big Bang Theory remains our most comprehensive and well-supported explanation for the universe's origin and evolution, though it continues to be refined as new evidence emerges.</p></div></div><div class="flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-md h-full flex flex-col"><h3 class="font-bold text-2xl mb-4 text-center">x_ai</h3><div class="flex-1 overflow-auto whitespace-pre-wrap text-sm text-gray-800"><p>The Big Bang Theory is the leading scientific explanation for the origin and evolution of the universe. It describes how the universe began as a hot, dense point nearly 14 billion years ago and has since expanded and cooled to form the cosmos we observe today. Below, I’ll provide a detailed overview of the theory, its evidence, key concepts, and its implications, while also addressing some common questions and misconceptions.</p>
+<hr>
+<h3><strong>What is the Big Bang Theory?</strong></h3>
+<p>The Big Bang Theory proposes that the universe originated from an extremely hot and dense state approximately 13.8 billion years ago. At this initial moment, often referred to as a "singularity," all matter, energy, space, and time itself came into existence. The universe then began to expand rapidly, cooling as it did so, allowing matter to form and eventually leading to the creation of stars, galaxies, and the large-scale structures we see today.</p>
+<p>Key points of the theory:</p>
+<ol>
+<li><strong>Singularity</strong>: The universe started as an infinitely dense and hot point where the laws of physics as we know them break down. We cannot describe or understand what happened "before" the Big Bang because time itself began at this moment.</li>
+<li><strong>Rapid Expansion</strong>: Immediately after the Big Bang, the universe underwent a period of incredibly fast expansion called <em>inflation</em>, growing exponentially in a fraction of a second.</li>
+<li><strong>Cooling and Formation</strong>: As the universe expanded, it cooled, allowing subatomic particles to form, followed by atoms, stars, and galaxies over billions of years.</li>
+<li><strong>Ongoing Expansion</strong>: The universe continues to expand today, as evidenced by observations of distant galaxies moving away from us.</li>
+</ol>
+<p>The term "Big Bang" was coined by British astronomer Fred Hoyle in 1949, somewhat derisively, as he initially opposed the idea. However, the name stuck and is now widely accepted.</p>
+<hr>
+<h3><strong>Key Stages of the Big Bang and Early Universe</strong></h3>
+<p>The evolution of the universe after the Big Bang can be broken down into several distinct epochs, each characterized by specific physical conditions and events. Here’s a timeline of the major stages:</p>
+<ol>
+<li>
+<p><strong>Planck Epoch (0 to 10⁻⁴³ seconds)</strong>:</p>
+<ul>
+<li>This is the earliest period we can theorize about, where the universe was so hot and dense that the four fundamental forces (gravity, electromagnetism, strong nuclear, and weak nuclear forces) were unified.</li>
+<li>Current physics cannot describe this epoch because quantum gravity (a theory combining quantum mechanics and general relativity) is not yet fully understood.</li>
+</ul>
+</li>
+<li>
+<p><strong>Grand Unification Epoch (10⁻⁴³ to 10⁻³⁶ seconds)</strong>:</p>
+<ul>
+<li>The universe cooled slightly, and the strong nuclear force separated from the other forces.</li>
+<li>The universe was still incredibly hot, with temperatures around 10²⁷ Kelvin.</li>
+</ul>
+</li>
+<li>
+<p><strong>Inflationary Epoch (10⁻³⁶ to 10⁻³² seconds)</strong>:</p>
+<ul>
+<li>During this period, the universe expanded exponentially, growing from smaller than a proton to the size of a grapefruit (or larger) in an incredibly short time.</li>
+<li>Inflation helps explain why the universe appears so uniform and flat on large scales and why there are tiny density fluctuations that later formed galaxies.</li>
+</ul>
+</li>
+<li>
+<p><strong>Quark Epoch (10⁻¹² to 10⁻⁶ seconds)</strong>:</p>
+<ul>
+<li>The universe cooled enough for quarks, gluons, and other fundamental particles to exist as a hot plasma.</li>
+<li>The electromagnetic and weak nuclear forces separated during this time.</li>
+</ul>
+</li>
+<li>
+<p><strong>Nucleosynthesis (3 minutes to 20 minutes)</strong>:</p>
+<ul>
+<li>The universe cooled to about 1 billion Kelvin, allowing protons and neutrons to combine and form the nuclei of light elements like hydrogen, helium, and trace amounts of lithium.</li>
+<li>This process is known as Big Bang Nucleosynthesis (BBN), and the predicted ratios of these light elements match observations, providing strong evidence for the theory.</li>
+</ul>
+</li>
+<li>
+<p><strong>Recombination Epoch (380,000 years after the Big Bang)</strong>:</p>
+<ul>
+<li>The universe cooled to about 3,000 Kelvin, allowing electrons to combine with nuclei to form neutral atoms.</li>
+<li>This made the universe transparent to light for the first time, releasing the Cosmic Microwave Background (CMB) radiation, which we can still detect today.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dark Ages (380,000 years to 150 million years)</strong>:</p>
+<ul>
+<li>A period with no stars or galaxies, just neutral gas and dark matter.</li>
+<li>The universe continued to expand and cool.</li>
+</ul>
+</li>
+<li>
+<p><strong>Reionization and Formation of Structures (150 million years onward)</strong>:</p>
+<ul>
+<li>The first stars and galaxies formed, ionizing the surrounding gas (reionization).</li>
+<li>Over billions of years, gravity caused matter to clump together, forming stars, galaxies, clusters, and superclusters.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Evidence Supporting the Big Bang Theory</strong></h3>
+<p>The Big Bang Theory is supported by multiple lines of observational evidence, which have been tested and confirmed through decades of research. Here are the primary pieces of evidence:</p>
+<ol>
+<li>
+<p><strong>Cosmic Microwave Background (CMB) Radiation</strong>:</p>
+<ul>
+<li>The CMB is the remnant heat from the Big Bang, discovered in 1965 by Arno Penzias and Robert Wilson. It is a uniform background of microwave radiation coming from all directions in space, with a temperature of about 2.7 Kelvin.</li>
+<li>The CMB’s uniformity and tiny temperature fluctuations (mapped by satellites like COBE, WMAP, and Planck) match predictions of the Big Bang and provide a snapshot of the universe at 380,000 years old.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expansion of the Universe</strong>:</p>
+<ul>
+<li>In 1929, Edwin Hubble discovered that galaxies are moving away from each other, and the farther a galaxy is, the faster it recedes. This is known as Hubble’s Law and indicates that the universe is expanding in all directions.</li>
+<li>This expansion implies that the universe was once much smaller and denser, consistent with the Big Bang.</li>
+</ul>
+</li>
+<li>
+<p><strong>Abundance of Light Elements</strong>:</p>
+<ul>
+<li>Big Bang Nucleosynthesis predicts the relative amounts of hydrogen (about 75%), helium (about 25%), and trace amounts of lithium and other light elements formed in the early universe. Observations of the oldest stars and gas clouds confirm these ratios.</li>
+</ul>
+</li>
+<li>
+<p><strong>Large-Scale Structure and Galaxy Distribution</strong>:</p>
+<ul>
+<li>The distribution of galaxies and cosmic structures matches the predictions of the Big Bang model, including tiny density fluctuations in the early universe (seen in the CMB) that grew into galaxies and clusters over time.</li>
+</ul>
+</li>
+<li>
+<p><strong>Redshift of Distant Galaxies</strong>:</p>
+<ul>
+<li>The light from distant galaxies is redshifted, meaning its wavelength is stretched as space itself expands. This redshift is proportional to distance, further supporting the idea of an expanding universe.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Key Concepts and Implications</strong></h3>
+<ol>
+<li>
+<p><strong>Expansion, Not Explosion</strong>:</p>
+<ul>
+<li>The term "Big Bang" can be misleading. It wasn’t an explosion in space but rather the rapid expansion <em>of</em> space itself. There is no "center" to the universe; every point is expanding away from every other point.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cosmic Inflation</strong>:</p>
+<ul>
+<li>Proposed by Alan Guth in 1980, inflation explains why the universe is so uniform and flat. It suggests a brief period of exponential expansion in the first fraction of a second, smoothing out irregularities and setting the stage for structure formation.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dark Matter and Dark Energy</strong>:</p>
+<ul>
+<li>Observations suggest that ordinary matter (atoms) makes up only about 5% of the universe’s energy content. Dark matter (27%) provides the gravitational scaffolding for galaxy formation, while dark energy (68%) drives the accelerated expansion of the universe observed since the late 1990s.</li>
+</ul>
+</li>
+<li>
+<p><strong>The Fate of the Universe</strong>:</p>
+<ul>
+<li>The ultimate fate of the universe depends on the nature of dark energy and the density of matter. Current data suggest the universe will continue expanding forever, becoming colder and more dilute (a "Big Freeze"). Other possibilities, like a "Big Crunch" (collapse) or "Big Rip" (tearing apart of space), are less likely based on current evidence.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Common Questions and Misconceptions</strong></h3>
+<ol>
+<li>
+<p><strong>What caused the Big Bang?</strong></p>
+<ul>
+<li>We don’t know. The Big Bang marks the beginning of time and space, so the concept of "cause" may not apply in the way we understand it. Some theories, like quantum fluctuations or multiverse scenarios, attempt to address this, but they remain speculative.</li>
+</ul>
+</li>
+<li>
+<p><strong>What was before the Big Bang?</strong></p>
+<ul>
+<li>Since time began with the Big Bang, asking "what was before" may not make sense. It’s like asking what’s north of the North Pole. Many physicists, including Stephen Hawking, argue that the question is meaningless within our current understanding.</li>
+</ul>
+</li>
+<li>
+<p><strong>Where did the Big Bang happen?</strong></p>
+<ul>
+<li>It didn’t happen at a specific location. The Big Bang occurred everywhere in the universe simultaneously because space itself was created and began expanding.</li>
+</ul>
+</li>
+<li>
+<p><strong>Is the Big Bang Theory proven?</strong></p>
+<ul>
+<li>No scientific theory is "proven" in an absolute sense, but the Big Bang is supported by overwhelming evidence and is the best explanation we have for the origin and evolution of the universe. It is a well-tested framework, though some details (like inflation or the nature of dark energy) are still being refined.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Challenges and Open Questions</strong></h3>
+<p>While the Big Bang Theory is robust, there are still unresolved issues and areas of active research:</p>
+<ul>
+<li><strong>The Singularity Problem</strong>: General relativity predicts a singularity at the start of the universe, but this is physically problematic. A theory of quantum gravity is needed to describe this state.</li>
+<li><strong>Matter-Antimatter Asymmetry</strong>: The Big Bang should have produced equal amounts of matter and antimatter, which would annihilate each other. Why is the universe made almost entirely of matter?</li>
+<li><strong>Nature of Dark Energy and Dark Matter</strong>: These mysterious components dominate the universe’s energy budget, but their exact nature remains unknown.</li>
+<li><strong>Inflation Details</strong>: While inflation solves many problems, the exact mechanism and energy scale of inflation are not fully understood.</li>
+</ul>
+<hr>
+<h3><strong>Conclusion</strong></h3>
+<p>The Big Bang Theory is a cornerstone of modern cosmology, providing a comprehensive framework for understanding the origin, evolution, and structure of the universe. Supported by a wealth of evidence—from the Cosmic Microwave Background to the expansion of space—it has transformed our view of the cosmos. However, it is not a complete story; ongoing research and future discoveries (e.g., through telescopes like the James Webb Space Telescope or experiments probing dark matter) continue to refine and expand our understanding.</p>
+<p>If you’d like to dive deeper into any specific aspect—such as cosmic inflation, the CMB, or the role of dark energy—let me know!</p></div></div></div></div></main><aside class="w-[40rem] bg-white border-l border-gray-300 overflow-hidden"><div class="p-6 h-[calc(100vh-4rem)] flex flex-col"><h2 class="text-xl font-semibold mb-4">Analytics</h2><div class="flex gap-6 mb-6"><div class="flex-1 h-64 bg-white p-4 rounded-lg shadow-sm"><h3 class="text-lg font-medium mb-2">Latency (ms)</h3><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 224px; max-width: 252px;"><svg class="recharts-surface" width="252" height="224" viewBox="0 0 252 224" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clippath id="recharts1-clip"><rect x="60" y="0" height="194" width="182"></rect></clippath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="194" x2="242" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="145.5" x2="242" y2="145.5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="97" x2="242" y2="97"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="48.5" x2="242" y2="48.5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="0" x2="242" y2="0"></line></g><g class="recharts-cartesian-grid-vertical"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="90.33333333333333" y1="0" x2="90.33333333333333" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="151" y1="0" x2="151" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="211.66666666666666" y1="0" x2="211.66666666666666" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="0" x2="60" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="242" y1="0" x2="242" y2="194"></line></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="60" y1="194" x2="242" y2="194"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="90.33333333333333" y1="200" x2="90.33333333333333" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="90.33333333333333" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="90.33333333333333" dy="0.71em">open_ai</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="151" y1="200" x2="151" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="151" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="151" dy="0.71em">anthropic</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="211.66666666666666" y1="200" x2="211.66666666666666" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="211.66666666666666" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="211.66666666666666" dy="0.71em">x_ai</tspan></text></g></g></g><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="60" y1="0" x2="60" y2="194"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="194" x2="60" y2="194"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="194" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">0</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="145.5" x2="60" y2="145.5"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="145.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">15000</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="97" x2="60" y2="97"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="97" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">30000</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="48.5" x2="60" y2="48.5"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="48.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">45000</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="0" x2="60" y2="0"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="7.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">60000</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="66.06666666666666" y="149.94906666666668" width="48" height="44.05093333333332" radius="0" fill="#4B5563" class="recharts-rectangle" d="M 66.06666666666666,149.94906666666668 h 48 v 44.05093333333332 h -48 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="126.73333333333332" y="159.57793333333333" width="48" height="34.422066666666666" radius="0" fill="#4B5563" class="recharts-rectangle" d="M 126.73333333333332,159.57793333333333 h 48 v 34.422066666666666 h -48 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="187.39999999999998" y="28.065333333333342" width="48" height="165.93466666666666" radius="0" fill="#4B5563" class="recharts-rectangle" d="M 187.39999999999998,28.065333333333342 h 48 v 165.93466666666666 h -48 Z"></path></g></g></g><g class="recharts-layer"></g><g class="recharts-layer recharts-label-list"><text offset="5" width="48" height="44.05093333333332" x="90.06666666666666" y="144.94906666666668" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="90.06666666666666" dy="0em">13624ms</tspan></text><text offset="5" width="48" height="34.422066666666666" x="150.73333333333332" y="154.57793333333333" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="150.73333333333332" dy="0em">10646ms</tspan></text><text offset="5" width="48" height="165.93466666666666" x="211.39999999999998" y="23.065333333333342" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="211.39999999999998" dy="0em">51320ms</tspan></text></g></g></svg><div tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-left recharts-tooltip-wrapper-top" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px; transform: translate(60px, 71.3161px);"><div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap;"><p class="recharts-tooltip-label" style="margin: 0px;">x_ai</p></div></div></div></div></div><div class="flex-1 h-64 bg-white p-4 rounded-lg shadow-sm"><h3 class="text-lg font-medium mb-2">Total Cost ($)</h3><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 224px; max-width: 252px;"><svg class="recharts-surface" width="252" height="224" viewBox="0 0 252 224" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clippath id="recharts4-clip"><rect x="60" y="0" height="194" width="182"></rect></clippath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="194" x2="242" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="143.187075927136" x2="242" y2="143.187075927136"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="92.37415185427197" x2="242" y2="92.37415185427197"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="0" x2="242" y2="0"></line></g><g class="recharts-cartesian-grid-vertical"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="90.33333333333333" y1="0" x2="90.33333333333333" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="151" y1="0" x2="151" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="211.66666666666666" y1="0" x2="211.66666666666666" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="60" y1="0" x2="60" y2="194"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="60" y="0" width="182" height="194" x1="242" y1="0" x2="242" y2="194"></line></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="60" y1="194" x2="242" y2="194"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="90.33333333333333" y1="200" x2="90.33333333333333" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="90.33333333333333" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="90.33333333333333" dy="0.71em">open_ai</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="151" y1="200" x2="151" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="151" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="151" dy="0.71em">anthropic</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="182" height="30" x="60" y="194" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="211.66666666666666" y1="200" x2="211.66666666666666" y2="194"></line><text orientation="bottom" width="182" height="30" stroke="none" font-size="10" x="211.66666666666666" y="202" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="211.66666666666666" dy="0.71em">x_ai</tspan></text></g></g></g><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="60" y1="0" x2="60" y2="194"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="194" x2="60" y2="194"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="194" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">0</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="143.187075927136" x2="60" y2="143.187075927136"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="143.187075927136" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">0.0095</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="92.37415185427197" x2="60" y2="92.37415185427197"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="92.37415185427197" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">0.019</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="194" x="0" y="0" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="54" y1="0" x2="60" y2="0"></line><text orientation="left" width="60" height="194" stroke="none" font-size="10" x="52" y="7.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="52" dy="0.355em">0.036270300000000005</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="66.06666666666666" y="192.65736208412946" width="48" height="1.3426379158705402" radius="0" fill="#1F2937" class="recharts-rectangle" d="M 66.06666666666666,192.65736208412946 h 48 v 1.3426379158705402 h -48 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="126.73333333333332" y="141.8498937146922" width="48" height="52.1501062853078" radius="0" fill="#1F2937" class="recharts-rectangle" d="M 126.73333333333332,141.8498937146922 h 48 v 52.1501062853078 h -48 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="187.39999999999998" y="17.636363636363654" width="48" height="176.36363636363635" radius="0" fill="#1F2937" class="recharts-rectangle" d="M 187.39999999999998,17.636363636363654 h 48 v 176.36363636363635 h -48 Z"></path></g></g></g><g class="recharts-layer"></g><g class="recharts-layer recharts-label-list"><text offset="5" width="48" height="1.3426379158705402" x="90.06666666666666" y="187.65736208412946" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="90.06666666666666" dy="0em">$0.00025102</tspan></text><text offset="5" width="48" height="52.1501062853078" x="150.73333333333332" y="136.8498937146922" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="150.73333333333332" dy="0em">$0.00975000</tspan></text><text offset="5" width="48" height="176.36363636363635" x="211.39999999999998" y="12.636363636363644" class="recharts-text recharts-label" text-anchor="middle" fill="#808080" style="font-size: 10px;"><tspan x="211.39999999999998" dy="0em">$0.03297300</tspan></text></g></g></svg><div tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-left recharts-tooltip-wrapper-bottom" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px; transform: translate(60px, 72.1233px);"><div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap;"><p class="recharts-tooltip-label" style="margin: 0px;">anthropic</p></div></div></div></div></div></div><div class="flex-1 overflow-y-auto space-y-4"><div class="bg-amber-50 p-4 rounded-lg shadow-md"><h4 class="text-lg font-bold text-black mb-3">OPEN AI</h4><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Usage</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Tokens</span><span>15</span></div><div class="flex justify-between"><span>Completion Tokens</span><span>833</span></div></div></div><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Cost</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Cost</span><span>$0.00000113</span></div><div class="flex justify-between"><span>Completion Cost</span><span>$0.00024990</span></div><div class="flex justify-between"><span>Total Cost</span><span>$0.00025102</span></div></div></div><div class="border-t border-gray-300 pt-2"><h5 class="font-semibold text-black mb-2">Latency</h5><div class="text-sm text-gray-700">13624 ms</div></div></div><div class="bg-amber-50 p-4 rounded-lg shadow-md"><h4 class="text-lg font-bold text-black mb-3">ANTHROPIC</h4><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Usage</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Tokens</span><span>15</span></div><div class="flex justify-between"><span>Completion Tokens</span><span>647</span></div></div></div><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Cost</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Cost</span><span>$0.00004500</span></div><div class="flex justify-between"><span>Completion Cost</span><span>$0.00970500</span></div><div class="flex justify-between"><span>Total Cost</span><span>$0.00975000</span></div></div></div><div class="border-t border-gray-300 pt-2"><h5 class="font-semibold text-black mb-2">Latency</h5><div class="text-sm text-gray-700">10646 ms</div></div></div><div class="bg-amber-50 p-4 rounded-lg shadow-md"><h4 class="text-lg font-bold text-black mb-3">X AI</h4><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Usage</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Tokens</span><span>31</span></div><div class="flex justify-between"><span>Completion Tokens</span><span>2192</span></div></div></div><div class="border-t border-gray-300 pt-2 mb-4"><h5 class="font-semibold text-black mb-2">Cost</h5><div class="space-y-1 text-sm text-gray-700"><div class="flex justify-between"><span>Prompt Cost</span><span>$0.00009300</span></div><div class="flex justify-between"><span>Completion Cost</span><span>$0.03288000</span></div><div class="flex justify-between"><span>Total Cost</span><span>$0.03297300</span></div></div></div><div class="border-t border-gray-300 pt-2"><h5 class="font-semibold text-black mb-2">Latency</h5><div class="text-sm text-gray-700">51320 ms</div></div></div></div></div></aside></div></div></div>
+  
+
+<span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre; font-size: 10px; letter-spacing: normal;">$0.03297300</span></body></html>

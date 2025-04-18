@@ -1,0 +1,23 @@
+{
+    "open_ai": {
+      "apiUrl": "https://api.openai.com/v1/chat/completions",
+      "model": "gpt-4o-mini",
+      "prompt_token_price": 0.075,
+      "completion_token_price": 0.30
+    },
+    "anthropic": {
+      "apiUrl": "https://api.anthropic.com/v1/messages",
+      "model": "claude-3-7-sonnet-20250219",
+      "version": "2023-06-01",
+      "prompt_token_price": 3.0,
+      "completion_token_price": 15.0
+    },
+    "x_ai": {
+      "apiUrl": "https://api.x.ai/v1/chat/completions",
+      "model": "grok-3-beta",
+      "systemPrompt": "You are Grok, a highly intelligent, helpful AI assistant.",
+      "prompt_token_price": 3.0,
+      "completion_token_price": 15.0
+    }
+  }
+  

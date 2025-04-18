@@ -1,0 +1,47 @@
+# ─── Mongo Data ───────────────────────────────
+# ignore all database files under database/data/
+database/data/
+
+# ─── Node.js ─────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ─── Environment ──────────────────────────────
+# dotenv files with secrets
+.env
+.env.*.local
+backend/.env
+
+# ─── Prisma / SQLite ──────────────────────────
+# if you ever use a file‑based dev DB
+prisma/dev.db
+prisma/dev.db-shm
+prisma/dev.db-wal
+
+# ─── Build / Coverage ─────────────────────────
+dist/
+build/
+coverage/
+.nyc_output/
+
+# ─── Logs ────────────────────────────────────
+logs/
+*.log
+
+# ─── Docker ──────────────────────────────────
+# ignore machine‑specific overrides & state
+docker-compose.override.yml
+*.env.docker
+docker-compose.*.yml
+
+# ─── IDE + OS ────────────────────────────────
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+# macOS
+.DS_Store
+# swap files
+*.swp

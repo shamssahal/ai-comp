@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+
+model ApiRequest {
+  id          String         @id @map("_id") @default(auto()) @db.ObjectId
+  requestId   String         @unique
+  timestamp   DateTime
+  prompt      String
+  models      String[]
+  temperature Float
+  max_tokens  Int
+  results     ModelResult[]  @relation("RequestResults")
+
+  @@index([timestamp], name: "ApiRequest_timestamp_idx")
+  @@map("api_requests")
+}
+
+model ModelResult {
+  id                String      @id @map("_id") @default(auto()) @db.ObjectId
+  model             String
+  status            String
+  text              String
+  model_name        String
+  prompt_tokens     Int
+  completion_tokens Int
+  prompt_cost       Float
+  completion_cost   Float
+  total_cost        Float
+  duration_ms       Int
+  request           ApiRequest  @relation("RequestResults", fields: [requestId], references: [id])
+  requestId         String      @db.ObjectId
+
+  @@index([requestId], name: "ModelResult_requestId_idx")
+  @@map("model_results")
+}
