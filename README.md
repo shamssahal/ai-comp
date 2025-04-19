@@ -57,7 +57,7 @@ A full‑stack “Compare LLM’s” project that lets you send the same prompt 
 
 1. **Clone this repo**  
    ```bash
-   git clone <your‑repo‑url>
+   git clone https://github.com/shamssahal/ai-comp
    cd ai-comp
    ```
 2. **Create .env for the backend**  
